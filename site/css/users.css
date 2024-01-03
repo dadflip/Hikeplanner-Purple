@@ -1,0 +1,216 @@
+h1 {
+  background-color:transparent; 
+  font-size: 200%; 
+  color: navy; 
+  text-align: center;
+}
+ 
+h2 {
+  font-size: 150%; 
+  color: blue; 
+  padding-left: 15px;
+}
+
+h3 {
+  font-size: 120%; 
+  color: purple; 
+  padding-left: 15px;
+}
+
+body {
+  background-color: #AAABF1; 
+  font-family: Verdana, sans-serif; 
+  font-size: 100%;
+  overflow-x: hidden;
+
+}
+
+form {
+  background-color: navy;
+  border-radius: 10px;
+  border: solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+select, input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #9d2ff7;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+table {
+  background-color: #2f0033;
+  table-layout: fixed;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*----------------------------------------------*/
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+  overflow:hidden;
+  width:100%;
+}
+
+#valider {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #050138;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+#graph {
+  border : 2px solid #000000;
+  box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+  -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+
+}
+
+
+/* The side navigation menu => Menu caché coulissant */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(54, 2, 56);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 1s; /* 1 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white; /*Couleur du texte du menu de navigation caché*/
+  display: block;
+  transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+  color: red;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*Au passage de la souris*/
+.sidenav a:hover {
+  text-decoration: none;
+  background-color: white;
+}
+
+.sidenav a:focus {
+color: red;
+background-color: white;
+}
+
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: rgb(68, 0, 255);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  width: 100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(54, 2, 56);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+a:link {
+color: red;
+text-decoration: none;
+}
+
+a{
+color : red;
+}
+
+
+/*-------------------------------------------------*/
+
+a svg{
+  transition:all .5s ease;
+
+  &:hover{
+    #transform:rotate(180deg);
+  }
+}
+
+
+#ico{
+display: none;
+}
+
+.menu{
+  background: #000;
+  display: none;
+  padding: 5px;
+  width: 320px;
+  @include border-radius(5px);
+  #transition: all 0.5s ease;
+}
+
+
+
+

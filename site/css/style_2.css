@@ -1,0 +1,158 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ background-color: #AAABF1;
+}
+
+body {
+ background-color: #AAABF1; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+ }
+
+header, footer, div{
+  display: block;
+  float: right;
+  width: 74%;
+}
+
+
+header hgroup{
+  background-color: transparent;
+  padding: 20px;
+}
+
+nav{
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+div{
+  float: right;
+  width: 74%;
+}
+
+footer{
+  clear: both;
+}
+
+
+h1 {
+ background-color:transparent; 
+ font-size: 200%; 
+ color: navy; 
+ text-align: center;
+ }
+
+h2 {
+ font-size: 150%; 
+ color: blue; 
+ padding-left: 15px;
+ }
+
+p,td {
+ color: black; 
+ }
+
+a:link {
+ color: green;
+ text-decoration: none;
+ }
+
+a:visited {
+ color: gray;
+ }
+
+a:hover {
+ color: red;
+ text-decoration: none;
+ background-color: mediumslateblue;
+}
+
+a:active, a:focus {
+ color: red;
+ background-color: white;
+}
+
+ul {
+  position: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*width: 60px;*/
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+}
+
+li {
+  float: center;
+}
+
+a {
+  display: block;
+  padding: 25px;
+  margin: 0;
+  background-color: purple;
+  font-size: 30px; 
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li {
+  border: 1px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+label p{
+  indent-text: 5em ;
+}
+
+iframe{
+  border: 1px solid black;
+}
+
+.bouton {
+  background-color: #008000;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.bouton:hover {
+  background-color: #225222;
+  color: white;
+}
+
+.left_div{
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.right_div{
+  display: block;
+  float: left;
+  width: 73%;
+
+}

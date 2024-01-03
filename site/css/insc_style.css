@@ -1,0 +1,64 @@
+header, footer, form{
+display:block;
+}
+
+html, body {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: #AAABF1; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+}
+
+h1 {
+ background-color:transparent; 
+ font-size: 200%; 
+ color: navy; 
+ text-align: center;
+ }
+
+form {
+	background-color: purple;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+footer{
+	clear: both;
+}
+
+
+[required] {
+	border-color: orange;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input:hover{
+	color: purple;
+ 	text-decoration: none;
+ 	background-color: white;
+}
+
+div {
+  column-count: 1;
+  column-rule-style: solid
+}
+
