@@ -3,8 +3,8 @@ function InitBDD(){
     //session_start();
     //Valeurs a changer selon base de données et serveurs...
     $_SESSION['hostname']="localhost";
-	$_SESSION['username']="dave-admin";
-    $_SESSION['password']="Dk2021lh!M1083";
+	$_SESSION['username']="username";
+    $_SESSION['password']="passwd";
     $_SESSION['dbname']="users";
     $_SESSION['usertable']="";
 }
